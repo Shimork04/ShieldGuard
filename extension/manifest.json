@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "ShieldGuard",
+    "version": "1.0",
+    "description": "Monitor and protect against DDoS attacks directly from your browser.",
+    "permissions": ["activeTab", "scripting", "storage", "webRequest"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+}
+  

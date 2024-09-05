@@ -1,0 +1,16 @@
+{
+    "name": "shieldguard-server",
+    "version": "1.0.0",
+    "description": "Backend server for ShieldGuard DDoS detection and mitigation tool",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^5.11.15",
+      "ws": "^7.4.3",
+      "axios": "^0.21.1"
+    }
+  }
+  
